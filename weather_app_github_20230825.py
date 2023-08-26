@@ -25,7 +25,7 @@ def fetch_weather_data(api_key, city, unit='m'):
         messagebox.showerror("Error", f"Failed to fetch weather data: {e}")
 
 # Example usage
-api_key = "a8b3d3d06ae34bad85600151232608"
+api_key = "ENTER API KEY HERE"
 city = "Asheville"
 unit = 'imperial'
 fetch_weather_data(api_key, city, unit)
